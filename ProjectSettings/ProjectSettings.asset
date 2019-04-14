@@ -301,6 +301,9 @@ PlayerSettings:
   - m_BuildTarget: WebGLSupport
     m_APIs: 0b000000
     m_Automatic: 1
+  - m_BuildTarget: WindowsStandaloneSupport
+    m_APIs: 1100000002000000
+    m_Automatic: 0
   m_BuildTargetVRSettings:
   - m_BuildTarget: Standalone
     m_Enabled: 1
@@ -629,6 +632,7 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
+    Collab: 0
     UNet: 1
   luminIcon:
     m_Name: 
@@ -649,10 +653,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: 6969beca-16f3-4afc-9e9b-4aef4c7d1a87
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: leaptennis
+  organizationId: cobypali
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

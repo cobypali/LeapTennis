@@ -18,7 +18,7 @@ MonoBehaviour:
     AppIdVoice: 
     AppVersion: 1
     UseNameServer: 1
-    FixedRegion: 
+    FixedRegion: usw
     Server: 
     Port: 0
     Protocol: 0
@@ -32,5 +32,7 @@ MonoBehaviour:
   - DestroySpaceship
   - Fire
   - RespawnSpaceship
+  - RemoteCreateBall
+  - RemoteWhack
   DisableAutoOpenWizard: 1
   ShowSettings: 1

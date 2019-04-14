@@ -10,6 +10,8 @@ public class PhotonImplementer : MonoBehaviourPunCallbacks
 {
     public bool prepend = true;
     public bool replace = false;
+    GameObject Player;
+    GameObject SingleSphere;
 
     public bool autocreateOnJoinRandomFailed = true;
 
@@ -51,8 +53,18 @@ public class PhotonImplementer : MonoBehaviourPunCallbacks
     public override void OnJoinedRoom()
     {
         ReportStatus("Joined Room: " + PhotonNetwork.CurrentRoom.Name);
-        PhotonNetwork.Instantiate("CharacterHead", Vector3.zero, Quaternion.identity);
+        Player = PhotonNetwork.Instantiate("CharacterHead", Vector3.zero, Quaternion.identity);
         PhotonNetwork.Instantiate("CharacterRacket", Vector3.zero, Quaternion.identity);
+
+        //if(Player.GetComponent<PhotonView>().ViewID == 1001) {
+        //  SingleSphere = PhotonNetwork.Instantiate("Sphere", Vector3.up, Quaternion.identity);
+        //} else
+        //{
+        //    SingleSphere = GameObject.Find("Sphere");
+        //}
+
+        GameObject.Find("Controller").GetComponent<MagicLeap.ControllerFeedbackExample>().ball = SingleSphere;
+
         ReportState("In Room", Color.green);
     }
 
