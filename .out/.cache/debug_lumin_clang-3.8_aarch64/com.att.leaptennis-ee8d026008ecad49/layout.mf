@@ -8,6 +8,10 @@
   "src": "C:/Users/cobyp/Documents/LeapTennis/Temp/StagingArea/Data/Plugins/AudioPluginMSASpatializer.so"
  },
  {
+  "dest": "bin/Photon3Unity3D.dll",
+  "src": "C:/Users/cobyp/Documents/LeapTennis/Temp/StagingArea/Data/Plugins/Photon3Unity3D.dll"
+ },
+ {
   "dest": "bin/UnityEngine.TestRunner.dll",
   "src": "C:/Users/cobyp/Documents/LeapTennis/Temp/StagingArea/Data/Plugins/UnityEngine.TestRunner.dll"
  },

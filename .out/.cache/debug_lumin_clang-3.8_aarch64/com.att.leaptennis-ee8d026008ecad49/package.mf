@@ -2,16 +2,16 @@
  "entries": [
   {
    "compression": 8,
-   "hash": "e34284f669cdd7ebb062354c3361c92fc04554e1",
+   "hash": "afc0b31376662c79d0028095be7f1d8540323caa",
    "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
-   "size": 3075656,
+   "size": 4254516,
    "src": "C:/Users/cobyp/Documents/LeapTennis/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
   },
   {
    "compression": 8,
-   "hash": "6e237ec4accfc83d7202a87e104ca507a9a0b262",
+   "hash": "09d86e8318fcbb2444b3d26a27c09ab538b315f9",
    "pkgpath": "bin/libil2cpp.so",
-   "size": 45778432,
+   "size": 60938432,
    "src": "C:/Users/cobyp/Documents/LeapTennis/Temp/StagingArea/Data/Native/libil2cpp.so",
    "xfrm_flags": {
     "signed": {
@@ -23,9 +23,9 @@
      "version": 3
     }
    },
-   "xfrm_hash": "732acac6a72abb9f8cfdf924a402521c48a58b15",
+   "xfrm_hash": "db93fabe868ed413fea6d7f5e19516fcee0a4378",
    "xfrm_path": "C:/Users/cobyp/Documents/LeapTennis/.out/.cache/debug_lumin_clang-3.8_aarch64/com.att.leaptennis-ee8d026008ecad49\\libil2cpp.so-2945ed9a08868253",
-   "xfrm_size": 45779190
+   "xfrm_size": 60939190
   },
   {
    "compression": 8,
@@ -46,6 +46,13 @@
    "xfrm_hash": "54a72fe98f76347edce28bb499c8bf0600127119",
    "xfrm_path": "C:/Users/cobyp/Documents/LeapTennis/.out/.cache/debug_lumin_clang-3.8_aarch64/com.att.leaptennis-ee8d026008ecad49\\AudioPluginMSASpatializer.so-c1da7a5cc04478cb",
    "xfrm_size": 270118
+  },
+  {
+   "compression": 8,
+   "hash": "97b651fd5c429347c37aaf1e1bb054f1ada1f14d",
+   "pkgpath": "bin/Photon3Unity3D.dll",
+   "size": 183808,
+   "src": "C:/Users/cobyp/Documents/LeapTennis/Temp/StagingArea/Data/Plugins/Photon3Unity3D.dll"
   },
   {
    "compression": 8,
@@ -158,23 +165,23 @@
   },
   {
    "compression": 8,
-   "hash": "e387bcd7c1c81cdcafafa1e848cb31483d2afe81",
+   "hash": "f3073b653d2493f5d3d14612aeeb2d6047844d76",
    "pkgpath": "Data/globalgamemanagers",
-   "size": 42384,
+   "size": 47792,
    "src": "C:/Users/cobyp/Documents/LeapTennis/Temp/StagingArea/Data/globalgamemanagers"
   },
   {
    "compression": 8,
-   "hash": "4b1da54aafd9b4c3e6fdadb99bdb3e6b4889d62e",
+   "hash": "426092a9ce16470229c5400037d42eb692f847de",
    "pkgpath": "Data/globalgamemanagers.assets",
-   "size": 46048,
+   "size": 55952,
    "src": "C:/Users/cobyp/Documents/LeapTennis/Temp/StagingArea/Data/globalgamemanagers.assets"
   },
   {
    "compression": 8,
-   "hash": "6659f0bc4df5c950dbc22967f1c99452c47c4083",
+   "hash": "9c928504145634ab007e2c9f2c6f53dd398004cd",
    "pkgpath": "Data/level0",
-   "size": 17940,
+   "size": 18356,
    "src": "C:/Users/cobyp/Documents/LeapTennis/Temp/StagingArea/Data/level0"
   },
   {
@@ -186,9 +193,9 @@
   },
   {
    "compression": 8,
-   "hash": "b2bf979451ae17f520f3287af707909b5d9656fc",
+   "hash": "17facfa03374e4b27c5511ef5be8dbdac46f6b88",
    "pkgpath": "Data/resources.assets",
-   "size": 19264,
+   "size": 23236,
    "src": "C:/Users/cobyp/Documents/LeapTennis/Temp/StagingArea/Data/resources.assets"
   },
   {
@@ -200,9 +207,9 @@
   },
   {
    "compression": 8,
-   "hash": "bac18d07cb07fd77446a69fb662adaf7d27da519",
+   "hash": "6f2ea31268bc957d7c9cccf0550d344ba96a6cd5",
    "pkgpath": "Data/sharedassets0.assets",
-   "size": 1411872,
+   "size": 1575736,
    "src": "C:/Users/cobyp/Documents/LeapTennis/Temp/StagingArea/Data/sharedassets0.assets"
   },
   {
