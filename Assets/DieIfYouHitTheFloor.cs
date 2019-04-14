@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DieIfYouHitTheFloor : MonoBehaviour
 {
-    private void update()
+    public void Update()
     {
         print("hello");
         if(transform.position.y < 0)
