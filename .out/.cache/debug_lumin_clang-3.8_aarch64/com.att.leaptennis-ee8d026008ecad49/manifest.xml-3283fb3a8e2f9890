@@ -1,0 +1,8 @@
+<manifest xmlns:ml="magicleap" ml:developer_id="0ae1b762-6152-488a-9919-a6c00e9d657c" ml:package="com.att.leaptennis" ml:version_code="1" ml:version_name="">
+  <application ml:min_api_level="2" ml:sdk_version="1.0" ml:visible_name="leaptennis">
+    <uses-privilege ml:name="LowLatencyLightwear" />
+    <component ml:binary_name="bin/Player.elf" ml:name=".fullscreen" ml:type="Fullscreen" ml:visible_name="leaptennis">
+      <icon ml:model_folder="Icon/Model" ml:portal_folder="Icon/Portal" />
+    </component>
+  </application>
+</manifest>
