@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MagicLeap/Examples/Scenes/Tennis.unity
-    guid: d6fb60b92ffc1ae459e9918f75a76555
+    path: Assets/MagicLeap/Examples/Scenes/Darth Maul.unity
+    guid: 363e68dc8ccf4ad4b999d89b3729d404
   m_configObjects: {}
