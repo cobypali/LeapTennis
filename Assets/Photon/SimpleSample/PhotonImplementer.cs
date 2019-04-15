@@ -54,7 +54,14 @@ public class PhotonImplementer : MonoBehaviourPunCallbacks
     {
         ReportStatus("Joined Room: " + PhotonNetwork.CurrentRoom.Name);
         Player = PhotonNetwork.Instantiate("CharacterHead", Vector3.zero, Quaternion.identity);
-        PhotonNetwork.Instantiate("CharacterRacket", new Vector3(0.09f, 0, -1.5f), Quaternion.identity);
+        PhotonNetwork.Instantiate("CharacterRacket", new Vector3(0.1f, 0, -1.6f), Quaternion.identity);
+
+        //Renderer[] renderers = obj.GetComponentsInChildren<Renderer>();
+
+        //foreach(Renderer ren in renderers)
+        //{
+         //   ren.enabled = false;
+        //}
 
         //if(Player.GetComponent<PhotonView>().ViewID == 1001) {
         //  SingleSphere = PhotonNetwork.Instantiate("Sphere", Vector3.up, Quaternion.identity);
