@@ -1,7 +1,6 @@
 # LeapTennis
 
 
-Reference-style: 
 ![alt text][logo]
 
 [logo]: screenshots/banner.jpg "Banner"
