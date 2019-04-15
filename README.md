@@ -1,6 +1,3 @@
-# LeapTennis
-
-
 ![alt text][logo]
 
 [logo]: screenshots/banner.jpg "Banner"
